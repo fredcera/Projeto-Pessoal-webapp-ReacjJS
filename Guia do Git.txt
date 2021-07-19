@@ -1,0 +1,14 @@
+Para chamar o git no diretorio q vai ser repositorio usar o botão direito e depois clicar em "Git Bash Here"
+git init -> iniciar o repositorio na pasta desejada
+git add <nome da pasta/arquivo> ou *(para pegar tudo do repositorio) {coloca os arquivos no container para enviar para o github
+git status {para verificar o status dos arquivos a serem commitados}
+git commit -m "mensagem" {assim commita e coloca uma mensagem de referencia ao commit}
+git remote add origin <link do repositorio remoto> {cria o link do repositorio remoto}
+git remote -v {lista todos os repositorios remotos}
+git push origin master {ira enviar tudo para o repositorio remoto [origin] a partir do repositorio local [master]}
+--- o arquivo .gitignore serve para selecionar pastas ou arquivos que não serão enviados ou selecionados pelo 'git add *' ou seja, os arquivos que serão ignorados devem estar dentro deste arquivo
+
+git clone <url> {serve para clonar um repositorio do github}
+
+git pull {serve para puxar os arquivos do repositorio do github}
+=== fazer um pull antes de fazer push, para depois fazer merge caso tenha conflito de arquivos ===
